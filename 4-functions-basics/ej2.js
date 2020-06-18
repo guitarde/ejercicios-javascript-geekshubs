@@ -8,7 +8,10 @@
 let convierteString = (numero) => {
     // Aquí tu código.  Desde aquí:
 
-    
+    if (typeof numero != 'number') {
+        return 'Debo ser ejecutada con un numero';
+    }
+    return '' + numero;
     // Hasta aquí.
 }
 
