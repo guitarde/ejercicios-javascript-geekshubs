@@ -15,9 +15,14 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
     arr[i] = giveMeIntegerRandom(4)
 }
 console.log('El array original es:  arr =', arr);
-
 // Aquí tu código
-
+// Opcion 1
+var total = arr.reduce((a, b) => a + b);
+// Opcion 2
+/*var total = 0;
+arr.forEach(valor => {
+    total += valor;
+});*/
 
 // Hasta aquí
 console.log('El total nuevo es: ', total);
