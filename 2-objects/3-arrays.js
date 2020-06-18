@@ -6,8 +6,12 @@
 
 // Aquí tu código
 
-
-// Hasta aquí
+var arr = [
+        { name: 'pepito', age: 25 },
+        { name: 'pepito', age: 34 },
+        { name: 'Juan', age: 14 }
+    ]
+    // Hasta aquí
 
 // TEST 1
 if (typeof arr === 'object' && arr.length >= 0) {
